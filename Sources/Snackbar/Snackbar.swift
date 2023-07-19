@@ -1,10 +1,3 @@
-//
-//  Snackbar.swift
-//  Lasso
-//
-//  Created by Ivan Sapozhnik on 17.07.23.
-//
-
 import Cocoa
 
 public enum SnackbarStyle {

@@ -1,10 +1,3 @@
-//
-//  SnackbarView.swift
-//  NSColorTest
-//
-//  Created by Ivan Sapozhnik on 19.07.23.
-//
-
 import Cocoa
 
 final class SnackbarView: NSBox {

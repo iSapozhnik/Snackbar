@@ -1,10 +1,3 @@
-//
-//  SnackbarWindow.swift
-//  NSColorTest
-//
-//  Created by Ivan Sapozhnik on 19.07.23.
-//
-
 import Cocoa
 
 final class SnackbarWindow: NSWindow {
