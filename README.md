@@ -102,10 +102,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Contributions are welcome! Please refer to the [Contribution Guidelines](CONTRIBUTING.md) for more details.
 
-## Acknowledgments
-
-- [Author Name](https://github.com/authorname) - Thanks for the inspiration!
-
 ## Support
 
-For any questions or issues, please [open an issue](https://github.com/your/repository/issues).
+If you like Snackbar, consider also to check the app ([Lasso - Window Manager for macOS](https://thelasso.app)) where I'm using it'.
