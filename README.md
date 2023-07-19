@@ -4,8 +4,6 @@
 
 A lightweight and customizable Snackbar component for Cocoa, designed to display brief informative messages to users.
 
-![](https://github.com/iSapozhnik/Snackbar/blob/main/Resources/demo_app.png)
-
 ## Demo
 
 ![](https://github.com/iSapozhnik/Snackbar/blob/main/Resources/snackbar_demo.gif)
