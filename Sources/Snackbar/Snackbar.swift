@@ -181,6 +181,7 @@ public enum Snackbar {
         snackbarWindow.delegate = windowDelegate
         windowDelegate.willClose = { window in
             cache.removeValue(forKey: window)
+            window.parent?.removeChildWindow(window)
             layoutExistingSnackbars(relativeTo: window, animate: true)
         }
         mainWindow.addChildWindow(snackbarWindow, ordered: .above)
