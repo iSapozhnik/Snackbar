@@ -169,7 +169,8 @@ public enum Snackbar {
         let finalRect = NSRect(x: round(toastOriginX), y: round(toastOriginY), width: toastSize.width, height: toastSize.height).insetBy(dx: -1, dy: -1)
     
         let snackbarWindow = SnackbarWindow(snackbarView: snackbarView, index: cache.keys.count)
-        snackbarView.onClick = {
+        snackbarView.onClick = { [weak snackbarWindow] in
+            guard let snackbarWindow else { return }
             dissapearItems[snackbarWindow]?.cancel()
             dissappearAnimation(withStyle: animationStyle.dissappear, snackbarWindow: snackbarWindow)
         }
