@@ -173,7 +173,8 @@ public enum Snackbar {
             dissapearItems[snackbarWindow]?.cancel()
             dissappearAnimation(withStyle: animationStyle.dissappear, snackbarWindow: snackbarWindow)
         }
-        snackbarWindow.onClick = {
+        snackbarWindow.onClick = { [weak snackbarWindow] in
+            guard let snackbarWindow else { return }
             dissapearItems[snackbarWindow]?.cancel()
             dissappearAnimation(withStyle: animationStyle.dissappear, snackbarWindow: snackbarWindow)
         }
